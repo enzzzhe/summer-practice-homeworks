@@ -10,9 +10,7 @@ gen/**
 out/**
 gen-external-apklibs/**
 
-# Gradle generated files
-.gradle/
-build/**
+
 
 # Signing files
 .signing/
@@ -24,4 +22,3 @@ build/**
 *.iws
 classes/**
 target/**
-/gradle.properties
