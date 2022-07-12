@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.homework2.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_snackbarFragment"
+            app:destination="@id/snackbarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sunFragment"
+        android:name="com.example.homework2.SunFragment"
+        android:label="SunFragment" />
+    <fragment
+        android:id="@+id/moodFragment"
+        android:name="com.example.homework2.MoodFragment"
+        android:label="MoodFragment" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.homework2.GalleryFragment"
+        android:label="GalleryFragment" />
+    <fragment
+        android:id="@+id/plusFragment"
+        android:name="com.example.homework2.PlusFragment"
+        android:label="PlusFragment" />
+    <fragment
+        android:id="@+id/snackbarFragment"
+        android:name="com.example.homework2.SnackbarFragment"
+        android:label="SnackbarFragment" />
+</navigation>

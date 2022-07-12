@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="@string/menu_main"/>
+    <item
+        android:id="@+id/plusFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_plus_drawable"
+        android:title="@string/menu_plus" />
+    <item
+        android:id="@+id/galleryFragment"
+        android:icon="@drawable/ic_gallery_drawable"
+        android:enabled="true"
+        android:title="@string/menu_gallery" />
+    <item
+        android:id="@+id/moodFragment"
+        android:icon="@drawable/ic_mood_drawable"
+        android:enabled="true"
+        android:title="@string/menu_mood" />
+    <item
+        android:id="@+id/sunFragment"
+        android:icon="@drawable/ic_sun_drawable"
+        android:enabled="true"
+        android:title="@string/menu_sun" />
+</menu>

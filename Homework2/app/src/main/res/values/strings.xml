@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Homework2</string>
+    <string name="menu_main" />
+    <string name="menu_profile" />
+    <string name="menu_photo" />
+    <string name="menu_gallery" />
+    <string name="menu_mood" />
+    <string name="menu_plus" />
+    <string name="menu_sun" />
+</resources>
